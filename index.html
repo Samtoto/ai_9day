@@ -9,8 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play AI 让你活9天.</tw-noscript></noscript></tw-story>
-<tw-storydata name="AI 让你活9天" startnode="1" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="445C39AD-990B-48E8-A4BA-29BFCF7E0330" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="111" color="green"></tw-tag><tw-passagedata pid="1" name="重新开始" tags="" position="600,700" size="100,100">
-&lt;img src=&quot;https://s3.bmp.ovh/2026/05/02/lgHjSmjp.png&quot; alt=&quot;image_bd7107cb.png&quot; style=&quot;width:100%&quot;&gt;
+<tw-storydata name="AI 让你活9天" startnode="1" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="445C39AD-990B-48E8-A4BA-29BFCF7E0330" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="111" color="green"></tw-tag><tw-passagedata pid="1" name="重新开始" tags="" position="600,700" size="100,100">&lt;img src=&quot;https://s3.bmp.ovh/2026/05/02/lgHjSmjp.png&quot; alt=&quot;image_bd7107cb.png&quot; style=&quot;width:100%&quot;&gt;
 
 （*一片漆黑，只有一条冰冷的绿色进度条缓慢闪烁*）
 
@@ -1577,7 +1576,7 @@
 ]
 (else:)
 [
-[[第 16 天：神经递质狂欢]]
+[[第 17 天：蜂群思维的邀请]]
 ]
 }
 </tw-passagedata><tw-passagedata pid="55" name="将药剂当作燃料烧掉" tags="" position="5400,500" size="100,100">在寒冷中获得了一丝温饱。但也失去了逃避痛苦的机会。
@@ -1624,7 +1623,7 @@
 ]
 (else:)
 [
-[[第 16 天：神经递质狂欢]]
+[[第 17 天：蜂群思维的邀请]]
 ]
 }
 </tw-passagedata><tw-passagedata pid="56" name="第 17 天：蜂群思维的邀请" tags="" position="5700,700" size="100,100">事件：AI 母体向你发出邀请，将你的意识上传，与亿万代码融为一体，获得永生。
@@ -1832,7 +1831,7 @@
 [[冷酷地拆毁它，认为这只是程式码的伪装]]
 </tw-passagedata><tw-passagedata pid="63" name="相信它是真的有感情，并为它哀悼" tags="" position="6200,500" size="100,100">你的人性被深深触动。但你的 AI 伪装彻底失效。
 
-(set:$ai to it -45)
+(set:$ai to it -35)
 (set:$mood to it +25)
 (set:$food to it -5)
 {
@@ -1879,7 +1878,7 @@
 }
 </tw-passagedata><tw-passagedata pid="64" name="冷酷地拆毁它，认为这只是程式码的伪装" tags="" position="6300,500" size="100,100">你变得像钢铁一样冰冷。
 
-(set:$ai to it +40)
+(set:$ai to it +50)
 (set:$mood to it -45)
 (set:$food to it +5)
 {
@@ -1930,7 +1929,7 @@
 [[砸毁发射台，苟且偷生]]
 </tw-passagedata><tw-passagedata pid="66" name="按下发射键，为人类保留火种" tags="" position="6500,500" size="100,100">极度的亢奋与荣誉感。你成了英雄，但也成了活靶子。
 
-(set:$ai to it -65)
+(set:$ai to it -55)
 (set:$mood to it +75)
 (set:$food to it +50)
 {
@@ -1970,13 +1969,11 @@
 (else-if:$mood &lt;= 0)[
     [[抑郁而亡]]
 ]
-(else:)[
-	*胜利？*
-]
+(else:)
 }
 </tw-passagedata><tw-passagedata pid="67" name="砸毁发射台，苟且偷生" tags="" position="6600,500" size="100,100">你亲手掐灭了人类最后的希望。
 
-(set:$ai to it +85)
+(set:$ai to it +95)
 (set:$mood to it -70)
 (set:$food to it -30)
 {
@@ -2016,9 +2013,7 @@
 (else-if:$mood &lt;= 0)[
     [[抑郁而亡]]
 ]
-(else:)[
-	*终点？*
-]
+(else:)
 }
 </tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
